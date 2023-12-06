@@ -4,10 +4,8 @@
 export default function Home() {
   return (
     <>
-    <h1>Initial website</h1>
-    <h2>This is a test website</h2>
-    <h3>Test website for Qayden!</h3>
-    <h4>This is the home-page</h4>
+    <h1 className="page-header">The Kocher Scandal</h1>
+    <h2 className="page-subheader">A True Crime Timeline</h2>
     </>
 
 

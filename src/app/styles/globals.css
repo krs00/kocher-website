@@ -1,1 +1,19 @@
-@import url("reset.css")
+@import url("reset.css");
+
+/* HAS RESPONSIVE FONT SIZE */
+/* USE REM UNITS TO SPECIFY TEXT FONT SIZE */
+body {
+    font-size: calc(15px + 0.390625vw);
+    background-color: #eae9e7; 
+}
+
+.page-header {
+    text-shadow: 1px 3px 3px rgba(0, 0, 0, 0.2);
+    text-align: center;
+}
+
+.page-subheader {
+    text-shadow: 1px 3px 3px rgba(0, 0, 0, 0.2);
+    text-align: center;
+    font-size: 1.7rem;
+}
