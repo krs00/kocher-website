@@ -1,6 +1,8 @@
 // import Image from 'next/image'
 // import styles from './page.module.css'
 
+import EvidenceBlock from "./components/EvidenceBlock"
+
 export default function Home() {
   return (
     <>
@@ -13,13 +15,17 @@ export default function Home() {
       </div>
 
 
-        <div className="video-sub-container">
-          <p className="video-subtitle bold-text">How did the footage come to be?</p>
-          <p className="video-subtitle video-subtitle2">Follow the timeline to review evidence</p>
-        </div>
-        
+      <div className="video-sub-container">
+        <p className="video-subtitle bold-text">How did the footage come to be?</p>
+        <p className="video-subtitle video-subtitle2">Follow the timeline to review evidence</p>
+      </div>
 
-   
+      <div className="timeline-container">
+        <EvidenceBlock />
+      </div>
+
+
+
 
     </>
 
